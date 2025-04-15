@@ -47,6 +47,16 @@ if menu == "Q1 - City & Population":
     fig1 = px.bar(pop_by_state.sort_values("Population", ascending=False), x="State", y="Population", title="Population by State")
     st.plotly_chart(fig1, use_container_width=True)
 
+    st.subheader("🔍 Top 10 Most Populous Cities")
+    top_cities = df_q1.sort_values("Population", ascending=False).head(10)
+    fig_top_cities = px.bar(top_cities, x="City", y="Population", color="State", title="Top 10 Cities by Population")
+    st.plotly_chart(fig_top_cities, use_container_width=True)
+
+    st.subheader("🗺️ State-wise City Count")
+    city_count_by_state = df_q1.groupby("State")["City"].nunique().reset_index()
+    fig_city_count = px.bar(city_count_by_state.sort_values("City", ascending=False), x="State", y="City", title="Number of Cities per State")
+    st.plotly_chart(fig_city_count, use_container_width=True)
+
 
 
 elif menu == "Q2 - Sales Zones":
@@ -56,6 +66,15 @@ elif menu == "Q2 - Sales Zones":
     st.plotly_chart(fig2, use_container_width=True)
     st.dataframe(df_q2)
 
+    st.subheader("🥧 Zone-wise Sales Distribution (Pie Chart)")
+    pie_zone_sales = df_q2.groupby("Zone")["Sales"].sum().reset_index()
+    fig_pie = px.pie(pie_zone_sales, names="Zone", values="Sales", title="Sales Contribution by Zone")
+    st.plotly_chart(fig_pie, use_container_width=True)
+
+    st.subheader("🌳 Treemap of Sales by Manager and Zone")
+    fig_tree = px.treemap(df_q2, path=["Zone", "Manager"], values="Sales", title="Treemap of Sales")
+    st.plotly_chart(fig_tree, use_container_width=True)
+
 elif menu == "Q3 - Manager Map":
     st.header("Q3: Customer Regions and Managers")
     st.dataframe(df_q3)
@@ -63,6 +82,13 @@ elif menu == "Q3 - Manager Map":
     customer_count = df_q3["Manager"].value_counts().reset_index()
     customer_count.columns = ["Manager", "Number of Customers"]
     st.bar_chart(customer_count.set_index("Manager"))
+
+    st.subheader("🌡️ Heatmap of Customer Count by Region and Manager")
+    heatmap_data = df_q3.groupby(["Region", "Manager"]).size().reset_index(name="Count")
+    heatmap_pivot = heatmap_data.pivot(index="Region", columns="Manager", values="Count")
+    st.dataframe(heatmap_pivot.fillna(0))
+    fig_heat = px.imshow(heatmap_pivot.fillna(0), text_auto=True, aspect="auto", title="Customer Distribution Heatmap")
+    st.plotly_chart(fig_heat, use_container_width=True)
 
 elif menu == "Pivot Summary":
     st.header("Pivot Campaign Summary")
