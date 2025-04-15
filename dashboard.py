@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import plotly.express as px
@@ -17,6 +16,17 @@ menu = st.sidebar.radio("Navigate", ["Q1 - City & Population", "Q2 - Sales Zones
 
 if menu == "Q1 - City & Population":
     st.header("Q1: City Population Insights")
+
+    # Ensure numeric population
+    df_q1["Population"] = pd.to_numeric(df_q1["Population"], errors='coerce')
+
+    # KPIs
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("🏙️ Cities in Rajasthan", df_q1[df_q1["State"] == "Rajasthan"]["City"].nunique())
+    col2.metric("👥 Pop in Andhra Pradesh", int(df_q1[df_q1["State"] == "Andhra Pradesh"]["Population"].sum()))
+    col3.metric("🌆 Cities > 1M", df_q1[df_q1["Population"] > 1_000_000]["City"].nunique())
+    col4.metric("📍Cities < 100K (MH+MP)", df_q1[(df_q1["State"].isin(["Maharashtra", "Madhya Pradesh"])) & (df_q1["Population"] < 100000)]["City"].nunique())
+
     st.subheader("Total Population by State")
     pop_by_state = df_q1.groupby("State")["Population"].sum().reset_index()
     fig1 = px.bar(pop_by_state.sort_values("Population", ascending=False), x="State", y="Population", title="Population by State")
@@ -24,7 +34,7 @@ if menu == "Q1 - City & Population":
 
     st.subheader("Cities with Population > 1 Million")
     big_cities = df_q1[df_q1["Population"] > 1_000_000]
-    st.dataframe(big_cities.sort_values("Population", ascending=False))
+    st.dataframe(big_cities.sort_values("Population", ascending=False)[["ID", "City", "State", "Population"]])
 
 elif menu == "Q2 - Sales Zones":
     st.header("Q2: Sales by Zone & Manager")
