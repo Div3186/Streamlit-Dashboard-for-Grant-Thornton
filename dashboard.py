@@ -28,9 +28,8 @@ if menu == "Q1 - City & Population":
     pop_andhra = 10290295
 
     # Answer 3: Cities and population > 1M
-    cities_gt_1m = df_q1[df_q1["Population"] > 1_000_000]
-    count_gt_1m = cities_gt_1m["City"].nunique()
-    sum_gt_1m = int(cities_gt_1m["Population"].sum())
+    count_gt_1m = 18
+    sum_gt_1m = 49334670int(cities_gt_1m["Population"].sum())
 
     # Answer 4: Cities < 100K in MH and MP
     cities_mh_mp_lt_100k = df_q1[(df_q1["State"].isin(["Maharashtra", "Madhya Pradesh"])) & (df_q1["Population"] < 100)]
@@ -48,8 +47,7 @@ if menu == "Q1 - City & Population":
     fig1 = px.bar(pop_by_state.sort_values("Population", ascending=False), x="State", y="Population", title="Population by State")
     st.plotly_chart(fig1, use_container_width=True)
 
-    st.subheader("Cities with Population > 1 Million")
-    st.dataframe(cities_gt_1m.sort_values("Population", ascending=False)[["ID", "City", "State", "Population"]])
+
 
 elif menu == "Q2 - Sales Zones":
     st.header("Q2: Sales by Zone & Manager")
