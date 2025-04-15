@@ -1,0 +1,323 @@
+ID,City,State,Population
+1043,Haora (Howrah),West Bengali,950435
+1044,Varanasi (Benares),Uttar Pradesh,929270
+1045,Patna,Bihar,917243
+1046,Srinagar,Jammu and Kashmir,892506
+1047,Agra,Uttar Pradesh,891790
+1048,Coimbatore,Tamil Nadu,816321
+1049,Thane (Thana),Maharashtra,803389
+1050,Allahabad,Uttar Pradesh,792858
+1051,Meerut,Uttar Pradesh,753778
+1052,Vishakhapatnam,Andhra Pradesh,752037
+1053,Jabalpur,Madhya Pradesh,741927
+1054,Amritsar,Punjab,708835
+1055,Faridabad,Haryana,703592
+1056,Vijayawada,Andhra Pradesh,701827
+1057,Gwalior,Madhya Pradesh,690765
+1058,Jodhpur,Rajasthan,666279
+1059,Nashik (Nasik),Maharashtra,656925
+1060,Hubli-Dharwad,Karnataka,648298
+1061,Solapur (Sholapur),Maharashtra,604215
+1062,Ranchi,Jharkhand,599306
+1063,Bareilly,Uttar Pradesh,587211
+1064,Guwahati (Gauhati),Assam,584342
+1065,Shambajinagar (Aurangabad),Maharashtra,573272
+1066,Cochin (Kochi),Kerala,564589
+1067,Rajkot,Gujarat,559407
+1068,Kota,Rajasthan,537371
+1069,Thiruvananthapuram (Trivandrum,Kerala,524006
+1070,Pimpri-Chinchwad,Maharashtra,517083
+1071,Jalandhar (Jullundur),Punjab,509510
+1072,Gorakhpur,Uttar Pradesh,505566
+1073,Chandigarh,Chandigarh,504094
+1074,Mysore,Karnataka,480692
+1075,Aligarh,Uttar Pradesh,480520
+1076,Guntur,Andhra Pradesh,471051
+1077,Jamshedpur,Jharkhand,460577
+1078,Ghaziabad,Uttar Pradesh,454156
+1079,Warangal,Andhra Pradesh,447657
+1080,Raipur,Chhatisgarh,438639
+1081,Moradabad,Uttar Pradesh,429214
+1082,Durgapur,West Bengali,425836
+1083,Amravati,Maharashtra,421576
+1084,Calicut (Kozhikode),Kerala,419831
+1085,Bikaner,Rajasthan,416289
+1086,Bhubaneswar,Orissa,411542
+1087,Kolhapur,Maharashtra,406370
+1088,Kataka (Cuttack),Orissa,403418
+1089,Ajmer,Rajasthan,402700
+1090,Bhavnagar,Gujarat,402338
+1091,Tiruchirapalli,Tamil Nadu,387223
+1092,Bhilai,Chhatisgarh,386159
+1093,Bhiwandi,Maharashtra,379070
+1094,Saharanpur,Uttar Pradesh,374945
+1095,Ulhasnagar,Maharashtra,369077
+1096,Salem,Tamil Nadu,366712
+1097,Ujjain,Madhya Pradesh,362266
+1098,Malegaon,Maharashtra,342595
+1099,Jamnagar,Gujarat,341637
+1100,Bokaro Steel City,Jharkhand,333683
+1101,Akola,Maharashtra,328034
+1102,Belgaum,Karnataka,326399
+1103,Rajahmundry,Andhra Pradesh,324851
+1104,Nellore,Andhra Pradesh,316606
+1105,Udaipur,Rajasthan,308571
+1106,New Bombay,Maharashtra,307297
+1107,Bhatpara,West Bengali,304952
+1108,Gulbarga,Karnataka,304099
+1109,New Delhi,Delhi,301297
+1110,Jhansi,Uttar Pradesh,300850
+1111,Gaya,Bihar,291675
+1112,Kakinada,Andhra Pradesh,279980
+1113,Dhule (Dhulia),Maharashtra,278317
+1114,Panihati,West Bengali,275990
+1115,Nanded (Nander),Maharashtra,275083
+1116,Mangalore,Karnataka,273304
+1117,Dehra Dun,Uttaranchal,270159
+1118,Kamarhati,West Bengali,266889
+1119,Davangere,Karnataka,266082
+1120,Asansol,West Bengali,262188
+1121,Bhagalpur,Bihar,253225
+1122,Bellary,Karnataka,245391
+1123,Barddhaman (Burdwan),West Bengali,245079
+1124,Rampur,Uttar Pradesh,243742
+1125,Jalgaon,Maharashtra,242193
+1126,Muzaffarpur,Bihar,241107
+1127,Nizamabad,Andhra Pradesh,241034
+1128,Muzaffarnagar,Uttar Pradesh,240609
+1129,Patiala,Punjab,238368
+1130,Shahjahanpur,Uttar Pradesh,237713
+1131,Kurnool,Andhra Pradesh,236800
+1132,Tiruppur (Tirupper),Tamil Nadu,235661
+1133,Rohtak,Haryana,233400
+1134,South Dum Dum,West Bengali,232811
+1135,Mathura,Uttar Pradesh,226691
+1136,Chandrapur,Maharashtra,226105
+1137,Barahanagar (Baranagar),West Bengali,224821
+1138,Darbhanga,Bihar,218391
+1139,Siliguri (Shiliguri),West Bengali,216950
+1140,Raurkela,Orissa,215489
+1141,Ambattur,Tamil Nadu,215424
+1142,Panipat,Haryana,215218
+1143,Firozabad,Uttar Pradesh,215128
+1144,Ichalkaranji,Maharashtra,214950
+1145,Jammu,Jammu and Kashmir,214737
+1146,Ramagundam,Andhra Pradesh,214384
+1147,Eluru,Andhra Pradesh,212866
+1148,Brahmapur,Orissa,210418
+1149,Alwar,Rajasthan,205086
+1150,Pondicherry,Pondicherry,203065
+1151,Thanjavur,Tamil Nadu,202013
+1152,Bihar Sharif,Bihar,201323
+1153,Tuticorin,Tamil Nadu,199854
+1154,Imphal,Manipur,198535
+1155,Latur,Maharashtra,197408
+1156,Sagar,Madhya Pradesh,195346
+1157,Farrukhabad-cum-Fatehgarh,Uttar Pradesh,194567
+1158,Sangli,Maharashtra,193197
+1159,Parbhani,Maharashtra,190255
+1160,Nagar Coil,Tamil Nadu,190084
+1161,Bijapur,Karnataka,186939
+1162,Kukatpalle,Andhra Pradesh,185378
+1163,Bally,West Bengali,184474
+1164,Bhilwara,Rajasthan,183965
+1165,Ratlam,Madhya Pradesh,183375
+1166,Avadi,Tamil Nadu,183215
+1167,Dindigul,Tamil Nadu,182477
+1168,Ahmadnagar,Maharashtra,181339
+1169,Bilaspur,Chhatisgarh,179833
+1170,Shimoga,Karnataka,179258
+1171,Kharagpur,West Bengali,177989
+1172,Mira Bhayandar,Maharashtra,175372
+1173,Vellore,Tamil Nadu,175061
+1174,Jalna,Maharashtra,174985
+1175,Burnpur,West Bengali,174933
+1176,Anantapur,Andhra Pradesh,174924
+1177,Allappuzha (Alleppey),Kerala,174666
+1178,Tirupati,Andhra Pradesh,174369
+1179,Karnal,Haryana,173751
+1180,Burhanpur,Madhya Pradesh,172710
+1181,Hisar (Hissar),Haryana,172677
+1182,Tiruvottiyur,Tamil Nadu,172562
+1183,Mirzapur-cum-Vindhyachal,Uttar Pradesh,169336
+1184,Secunderabad,Andhra Pradesh,167461
+1185,Nadiad,Gujarat,167051
+1186,Dewas,Madhya Pradesh,164364
+1187,Murwara (Katni),Madhya Pradesh,163431
+1188,Ganganagar,Rajasthan,161482
+1189,Vizianagaram,Andhra Pradesh,160359
+1190,Erode,Tamil Nadu,159232
+1191,Machilipatnam (Masulipatam),Andhra Pradesh,159110
+1192,Bhatinda (Bathinda),Punjab,159042
+1193,Raichur,Karnataka,157551
+1194,Agartala,Tripura,157358
+1195,Arrah (Ara),Bihar,157082
+1196,Satna,Madhya Pradesh,156630
+1197,Lalbahadur Nagar,Andhra Pradesh,155500
+1198,Aizawl,Mizoram,155240
+1199,Uluberia,West Bengali,155172
+1200,Katihar,Bihar,154367
+1201,Cuddalore,Tamil Nadu,153086
+1202,Hugli-Chinsurah,West Bengali,151806
+1203,Dhanbad,Jharkhand,151789
+1204,Raiganj,West Bengali,151045
+1205,Sambhal,Uttar Pradesh,150869
+1206,Durg,Chhatisgarh,150645
+1207,Munger (Monghyr),Bihar,150112
+1208,Kanchipuram,Tamil Nadu,150100
+1209,North Dum Dum,West Bengali,149965
+1210,Karimnagar,Andhra Pradesh,148583
+1211,Bharatpur,Rajasthan,148519
+1212,Sikar,Rajasthan,148272
+1213,Hardwar (Haridwar),Uttaranchal,147305
+1214,Dabgram,West Bengali,147217
+1215,Morena,Madhya Pradesh,147124
+1216,Noida,Uttar Pradesh,146514
+1217,Hapur,Uttar Pradesh,146262
+1218,Bhusawal,Maharashtra,145143
+1219,Khandwa,Madhya Pradesh,145133
+1220,Yamuna Nagar,Haryana,144346
+1221,Sonipat (Sonepat),Haryana,143922
+1222,Tenali,Andhra Pradesh,143726
+1223,Raurkela Civil Township,Orissa,140408
+1224,Kollam (Quilon),Kerala,139852
+1225,Kumbakonam,Tamil Nadu,139483
+1226,Ingraj Bazar (English Bazar),West Bengali,139204
+1227,Timkur,Karnataka,138903
+1228,Amroha,Uttar Pradesh,137061
+1229,Serampore,West Bengali,137028
+1230,Chapra,Bihar,136877
+1231,Pali,Rajasthan,136842
+1232,Maunath Bhanjan,Uttar Pradesh,136697
+1233,Adoni,Andhra Pradesh,136182
+1234,Jaunpur,Uttar Pradesh,136062
+1235,Tirunelveli,Tamil Nadu,135825
+1236,Bahraich,Uttar Pradesh,135400
+1237,Gadag Betigeri,Karnataka,134051
+1238,Proddatur,Andhra Pradesh,133914
+1239,Chittoor,Andhra Pradesh,133462
+1240,Barrackpur,West Bengali,133265
+1241,Bharuch (Broach),Gujarat,133102
+1242,Naihati,West Bengali,132701
+1243,Shillong,Meghalaya,131719
+1244,Sambalpur,Orissa,131138
+1245,Junagadh,Gujarat,130484
+1246,Rae Bareli,Uttar Pradesh,129904
+1247,Rewa,Madhya Pradesh,128981
+1248,Gurgaon,Haryana,128608
+1249,Khammam,Andhra Pradesh,127992
+1250,Bulandshahr,Uttar Pradesh,127201
+1251,Navsari,Gujarat,126089
+1252,Malkajgiri,Andhra Pradesh,126066
+1253,Midnapore (Medinipur),West Bengali,125498
+1254,Miraj,Maharashtra,125407
+1255,Raj Nandgaon,Chhatisgarh,125371
+1256,Alandur,Tamil Nadu,125244
+1257,Puri,Orissa,125199
+1258,Navadwip,West Bengali,125037
+1259,Sirsa,Haryana,125000
+1260,Korba,Chhatisgarh,124501
+1261,Faizabad,Uttar Pradesh,124437
+1262,Etawah,Uttar Pradesh,124072
+1263,Pathankot,Punjab,123930
+1264,Gandhinagar,Gujarat,123359
+1265,Palghat (Palakkad),Kerala,123289
+1266,Veraval,Gujarat,123000
+1267,Hoshiarpur,Punjab,122705
+1268,Ambala,Haryana,122596
+1269,Sitapur,Uttar Pradesh,121842
+1270,Bhiwani,Haryana,121629
+1271,Cuddapah,Andhra Pradesh,121463
+1272,Bhimavaram,Andhra Pradesh,121314
+1273,Krishnanagar,West Bengali,121110
+1274,Chandannagar,West Bengali,120378
+1275,Mandya,Karnataka,120265
+1276,Dibrugarh,Assam,120127
+1277,Nandyal,Andhra Pradesh,119813
+1278,Balurghat,West Bengali,119796
+1279,Neyveli,Tamil Nadu,118080
+1280,Fatehpur,Uttar Pradesh,117675
+1281,Mahbubnagar,Andhra Pradesh,116833
+1282,Budaun,Uttar Pradesh,116695
+1283,Porbandar,Gujarat,116671
+1284,Silchar,Assam,115483
+1285,Berhampore (Baharampur),West Bengali,115144
+1286,Purnea (Purnia),Jharkhand,114912
+1287,Bankura,West Bengali,114876
+1288,Rajapalaiyam,Tamil Nadu,114202
+1289,Titagarh,West Bengali,114085
+1290,Halisahar,West Bengali,114028
+1291,Hathras,Uttar Pradesh,113285
+1292,Bhir (Bid),Maharashtra,112434
+1293,Pallavaram,Tamil Nadu,111866
+1294,Anand,Gujarat,110266
+1295,Mango,Jharkhand,110024
+1296,Santipur,West Bengali,109956
+1297,Bhind,Madhya Pradesh,109755
+1298,Gondiya,Maharashtra,109470
+1299,Tiruvannamalai,Tamil Nadu,109196
+1300,Yeotmal (Yavatmal),Maharashtra,108578
+1301,Kulti-Barakar,West Bengali,108518
+1302,Moga,Punjab,108304
+1303,Shivapuri,Madhya Pradesh,108277
+1304,Bidar,Karnataka,108016
+1305,Guntakal,Andhra Pradesh,107592
+1306,Unnao,Uttar Pradesh,107425
+1307,Barasat,West Bengali,107365
+1308,Tambaram,Tamil Nadu,107187
+1309,Abohar,Punjab,107163
+1310,Pilibhit,Uttar Pradesh,106605
+1311,Valparai,Tamil Nadu,106523
+1312,Gonda,Uttar Pradesh,106078
+1313,Surendranagar,Gujarat,105973
+1314,Qutubullapur,Andhra Pradesh,105380
+1315,Beawar,Rajasthan,105363
+1316,Hindupur,Andhra Pradesh,104651
+1317,Gandhidham,Gujarat,104585
+1318,Haldwani-cum-Kathgodam,Uttaranchal,104195
+1319,Tellicherry (Thalassery),Kerala,103579
+1320,Wardha,Maharashtra,102985
+1321,Rishra,West Bengali,102649
+1322,Bhuj,Gujarat,102176
+1323,Modinagar,Uttar Pradesh,101660
+1324,Gudivada,Andhra Pradesh,101656
+1325,Basirhat,West Bengali,101409
+1326,Uttarpara-Kotrung,West Bengali,100867
+1327,Ongole,Andhra Pradesh,100836
+1328,North Barrackpur,West Bengali,100513
+1329,Guna,Madhya Pradesh,100490
+1330,Haldia,West Bengali,100347
+1331,Habra,West Bengali,100223
+1332,Kanchrapara,West Bengali,100194
+1333,Tonk,Rajasthan,100079
+1334,Champdani,West Bengali,98818
+1335,Orai,Uttar Pradesh,98640
+1336,Pudukkottai,Tamil Nadu,98619
+1337,Sasaram,Bihar,98220
+1338,Hazaribag,Jharkhand,97712
+1339,Palayankottai,Tamil Nadu,97662
+1340,Banda,Uttar Pradesh,97227
+1341,Godhra,Gujarat,96813
+1342,Hospet,Karnataka,96322
+1343,Ashoknagar-Kalyangarh,West Bengali,96315
+1344,Achalpur,Maharashtra,96216
+1345,Patan,Gujarat,96109
+1346,Mandasor,Madhya Pradesh,95758
+1347,Damoh,Madhya Pradesh,95661
+1348,Satara,Maharashtra,95133
+1349,Meerut Cantonment,Uttar Pradesh,94876
+1350,Dehri,Bihar,94526
+1351,Delhi Cantonment,Delhi,94326
+1352,Chhindwara,Madhya Pradesh,93731
+1353,Bansberia,West Bengali,93447
+1354,Nagaon,Assam,93350
+1355,Kanpur Cantonment,Uttar Pradesh,93109
+1356,Vidisha,Madhya Pradesh,92917
+1357,Bettiah,Bihar,92583
+1358,Purulia,Jharkhand,92574
+1359,Hassan,Karnataka,90803
+1360,Ambala Sadar,Haryana,90712
+1361,Baidyabati,West Bengali,90601
+1362,Morvi,Gujarat,90357
+1363,Raigarh,Chhatisgarh,89166
+1364,Vejalpur,Gujarat,89053

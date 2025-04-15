@@ -1,0 +1,11 @@
+Customer ID,Customer Name,Region,Manager
+JM-15655,Jim Mitchum,AMEA,Larry Hughes
+JR-16210,Justin Ritter,South,Chuck Magee
+JW-15220,Jane Waco,West,Matt Collister
+KM-16375,Katherine Murray,West,Matt Collister
+MB-18085,Mick Brown,Caribbean,Giulietta Dortch
+RH-19495,Rick Hansen,Central,Anna Andreadi
+RH-9495,Rick Hansen,Africa,Deborah Brumfield
+TS-21340,Toby Swindell,Canada,Nicole Hansen
+Region,Central,South,East
+Manager,Anna Andreadi,Chuck Magee,Kelly Williams
