@@ -28,11 +28,7 @@ if menu == "Q1 - City & Population":
     pop_andhra = 10290295
 
     # Answer 3: Cities and population > 1M (threshold = 1000 as data is in '000s)
-    cities_gt_1m = df_q1[df_q1["City"].isin([
-        "Mumbai", "Delhi", "Bangalore", "Hyderabad", "Ahmedabad", "Chennai",
-        "Kolkata", "Surat", "Pune", "Jaipur", "Lucknow", "Kanpur",
-        "Nagpur", "Indore", "Thane", "Bhopal", "Visakhapatnam", "Patna"
-    ])]
+    cities_gt_1m = df_q1[df_q1["Population"] > 1000]
     count_gt_1m = 18
     sum_gt_1m = 49334670
 
