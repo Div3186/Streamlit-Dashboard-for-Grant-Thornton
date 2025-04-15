@@ -18,8 +18,8 @@ if menu == "Q1 - City & Population":
     st.header("Q1: City Population Insights")
 
     # Ensure numeric population
-df_q1["Population"] = df_q1["Population"].astype(str).str.replace(",", "").str.strip()
-df_q1["Population"] = pd.to_numeric(df_q1["Population"], errors='coerce')
+    df_q1["Population"] = df_q1["Population"].astype(str).str.replace(",", "").str.strip()
+    df_q1["Population"] = pd.to_numeric(df_q1["Population"], errors='coerce')
 
     # KPIs
     col1, col2, col3, col4 = st.columns(4)
