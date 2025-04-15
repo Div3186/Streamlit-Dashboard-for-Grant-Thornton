@@ -34,7 +34,7 @@ if menu == "Q1 - City & Population":
     st.plotly_chart(fig1, use_container_width=True)
 
     st.subheader("Cities with Population > 1 Million")
-    big_cities = df_q1[df_q1["Population"] > 1_000_000]
+    big_cities = df_q1[df_q1["Population"] > 1000]  # 1000 ('000s) = 1 million actual population
     st.dataframe(big_cities.sort_values("Population", ascending=False)[["ID", "City", "State", "Population"]])
 
 elif menu == "Q2 - Sales Zones":
