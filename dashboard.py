@@ -27,10 +27,10 @@ if menu == "Q1 - City & Population":
     # Answer 2: Population in Andhra Pradesh
     pop_andhra = 10290295
 
-    # Answer 3: Cities and population > 1M (threshold = 1000 as data is in '000s)
+    # Answer 3: Cities and population > 1M
     cities_gt_1m = df_q1[df_q1["Population"] > 1_000_000]
-    count_gt_1m = 18
-    sum_gt_1m = 49334670
+    count_gt_1m = cities_gt_1m["City"].nunique()
+    sum_gt_1m = int(cities_gt_1m["Population"].sum())
 
     # Answer 4: Cities < 100K in MH and MP
     cities_mh_mp_lt_100k = df_q1[(df_q1["State"].isin(["Maharashtra", "Madhya Pradesh"])) & (df_q1["Population"] < 100)]
