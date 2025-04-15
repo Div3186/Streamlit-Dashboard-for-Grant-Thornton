@@ -21,12 +21,27 @@ if menu == "Q1 - City & Population":
     df_q1["Population"] = df_q1["Population"].astype(str).str.replace(",", "").str.strip()
     df_q1["Population"] = pd.to_numeric(df_q1["Population"], errors='coerce')
 
-    # KPIs
+    # Answer 1: Cities in Rajasthan
+    cities_rajasthan = df_q1[df_q1["State"] == "Rajasthan"]["City"].nunique()
+
+    # Answer 2: Population in Andhra Pradesh
+    pop_andhra = int(df_q1[df_q1["State"] == "Andhra Pradesh"]["Population"].sum())
+
+    # Answer 3: Cities and population > 1M (threshold = 1000 as data is in '000s)
+    cities_gt_1m = df_q1[df_q1["Population"] > 1000]
+    count_gt_1m = cities_gt_1m["City"].nunique()
+    sum_gt_1m = int(cities_gt_1m["Population"].sum()) * 1000
+
+    # Answer 4: Cities < 100K in MH and MP
+    cities_mh_mp_lt_100k = df_q1[(df_q1["State"].isin(["Maharashtra", "Madhya Pradesh"])) & (df_q1["Population"] < 100)]
+    count_mh_mp_lt_100k = cities_mh_mp_lt_100k["City"].nunique()
+
+    # KPI cards
     col1, col2, col3, col4 = st.columns(4)
-    col1.metric("🏙️ Cities in Rajasthan", df_q1[df_q1["State"] == "Rajasthan"]["City"].nunique())
-    col2.metric("👥 Pop in Andhra Pradesh", int(df_q1[df_q1["State"] == "Andhra Pradesh"]["Population"].sum()))
-    col3.metric("🌆 Cities > 1M", df_q1[df_q1["Population"] > 1_000_000]["City"].nunique())
-    col4.metric("📍Cities < 100K (MH+MP)", df_q1[(df_q1["State"].isin(["Maharashtra", "Madhya Pradesh"])) & (df_q1["Population"] < 100000)]["City"].nunique())
+    col1.metric("🏙️ Cities in Rajasthan", cities_rajasthan)
+    col2.metric("👥 Pop in Andhra Pradesh", f"{pop_andhra:,}")
+    col3.metric("🌆 Cities > 1M", f"{count_gt_1m} cities\nTotal Pop: {sum_gt_1m:,}")
+    col4.metric("📍Cities < 100K (MH+MP)", count_mh_mp_lt_100k)
 
     st.subheader("Total Population by State")
     pop_by_state = df_q1.groupby("State")["Population"].sum().reset_index()
@@ -34,8 +49,7 @@ if menu == "Q1 - City & Population":
     st.plotly_chart(fig1, use_container_width=True)
 
     st.subheader("Cities with Population > 1 Million")
-    big_cities = df_q1[df_q1["Population"] > 1000]  # 1000 ('000s) = 1 million actual population
-    st.dataframe(big_cities.sort_values("Population", ascending=False)[["ID", "City", "State", "Population"]])
+    st.dataframe(cities_gt_1m.sort_values("Population", ascending=False)[["ID", "City", "State", "Population"]])
 
 elif menu == "Q2 - Sales Zones":
     st.header("Q2: Sales by Zone & Manager")
