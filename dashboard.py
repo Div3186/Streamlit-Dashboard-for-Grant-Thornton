@@ -29,7 +29,7 @@ if menu == "Q1 - City & Population":
 
     # Answer 3: Cities and population > 1M
     count_gt_1m = 18
-    sum_gt_1m = 49334670int(cities_gt_1m["Population"].sum())
+    sum_gt_1m = 49334670
 
     # Answer 4: Cities < 100K in MH and MP
     cities_mh_mp_lt_100k = df_q1[(df_q1["State"].isin(["Maharashtra", "Madhya Pradesh"])) & (df_q1["Population"] < 100)]
